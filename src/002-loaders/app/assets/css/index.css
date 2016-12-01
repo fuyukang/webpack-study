@@ -1,0 +1,12 @@
+body{
+    font-family: "Microsoft Sans Serif";
+    text-align: center;
+    font-size: 50px;
+    color: #000;
+    background-image: url("../img/bg.jpg");
+}
+
+.summary{
+    background-image: url("../img/pic.jpg");
+    color: black;
+}

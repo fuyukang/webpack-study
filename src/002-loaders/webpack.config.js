@@ -7,7 +7,8 @@ module.exports = {
     module: {
         loaders: [
             //正则匹配css结尾的文件,使用`css-loader`
-            {test: /\.css$/, loader: "style-loader!css-loader"}
+            {test: /\.css$/, loader: "style-loader!css-loader"},
+            {test: /\.(png|jpg)$/, loader: 'url-loader?limit=8192'}
         ]
     }
 }

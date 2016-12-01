@@ -96,3 +96,10 @@
         |-  package.json    项目的依赖文件
         |-  webpack.config.js   项目的webpack配置文件
     ```
+2. `webpack`命令:
+    - `webpack` : 打包文件
+    - `webpack --config XXX.js` : 使用特定配置文件
+    - `webpack --watch` : 监听文件变化并自动打包
+    - `webpack -p` : 生成压缩混淆文件
+    - `webpack -d` : 生成map映射文件，告知哪些模块被最终打包到哪里了
+    

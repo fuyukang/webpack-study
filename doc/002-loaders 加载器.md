@@ -34,7 +34,7 @@
         </nody>
         </html>
         ```
-    - 新建`app/index.css`
+    - 新建`app/assets/css/index.css`
         ```
            * {
                font-family: "Microsoft Sans Serif";
@@ -48,16 +48,13 @@
         ```
     - 修改`app.js`
         ```
-        require('./index.css')
-        document.write("hello webpack")
+       require('./assets/css/index.css')
+       document.write("hello webpack")
     
         ```
     - 浏览器打开`index.html`,并查看元素,可以发现,`css`被注入到了`style`标签中
    ![css-loader](https://github.com/followWinter/webpack-study/raw/master/doc/img/002-css-loader-1.png)
    
-   
 
-
-2. `css-loader`详细使用指南
     
-
+    
