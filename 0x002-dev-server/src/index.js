@@ -1,1 +1,1 @@
-document.write('sds')
+document.write('hello webpack')
