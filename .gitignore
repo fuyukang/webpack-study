@@ -1,15 +1,3 @@
 # Created by .ignore support plugin (hsz.mobi)
 .idea
-webpack-study.iml
-node_modules
-/src/0x001-getting-start/dist/bundle.js
-/src/x0002-asset-manager/dist/bundle.js
-/src/0x007-code-splitting/1-entry-points/dist/
-/src/0x001-getting-start/2-new-architecture-with-webpack/dist/
-/src/0x002-asset-manager/dist/
-/src/0x003-output-management/dist/
-/src/0x004-development/1-source-map/dist/
-/src/0x005-tree-shaking/1-after/dist/
-/src/0x005-tree-shaking/1-before/dist/
-/src/0x006-production/dist/
-/src/0x007-code-splitting/2-dynamic-imports/dist/
+
