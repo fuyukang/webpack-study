@@ -9,7 +9,6 @@ module.exports = {
         path: path.join(__dirname, 'dist'),
         filename: '[name].bundle.js'
     },
-    // ----在这里追加----
     plugins: [
         new webpack.DllReferencePlugin({
             context: __dirname,
@@ -19,5 +18,4 @@ module.exports = {
             manifest: require('./dist/vendor-manifest.json')
         })
     ]
-    // ----在这里追加----
 };
