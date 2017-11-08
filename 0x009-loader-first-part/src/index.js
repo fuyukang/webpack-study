@@ -9,8 +9,9 @@
 
 // url-loader
 // 低于81920
-require('./../res/icon.jpg')
+// require('./../res/icon.jpg')
 // 高于81920
-require('./../res/big.jpg')
+// require('./../res/big.jpg')
 
 
+require('./index.json')

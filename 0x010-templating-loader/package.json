@@ -1,5 +1,5 @@
 {
-  "name": "0x009-extract-text-webpack-plugin",
+  "name": "0x010-templatind-loader",
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",
@@ -10,10 +10,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "extract-loader": "^1.0.1",
     "file-loader": "^1.1.5",
-    "json-loader": "^0.5.7",
-    "raw-loader": "^0.5.1",
-    "url-loader": "^0.6.2",
-    "webpack": "^3.8.1"
+    "html-loader": "^0.5.1",
+    "pug": "^2.0.0-rc.4",
+    "pug-loader": "^2.3.0"
   }
 }

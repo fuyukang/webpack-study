@@ -14,6 +14,10 @@ module.exports = {
                 test: /\.txt$/,
                 use : 'raw-loader'
             },
+            {
+                test: /\.json/,
+                use : 'json-loader'
+            },
             // {
             //     test: /\.(png|jpg|gif)$/,
             //     use : 'file-loader'
@@ -30,7 +34,7 @@ module.exports = {
                 //         }
                 //     }
                 // ]
-                use:'url-loader?limit=1045876&name=[name].[hash].[ext]'
+                use : 'url-loader?limit=1045876&name=[name].[hash].[ext]'
             }
         ]
     }
