@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "manifest-webpack-plugin": "^0.2.0"
+  },
+  "name": "0x001-begin",
+  "version": "2.0.0",
+  "main": "webpack.config.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

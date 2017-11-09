@@ -1,5 +1,5 @@
-const path               = require('path');
-var UpdatePackageVersion = require('./UpdatePackageVersion')
+const path                     = require('path');
+var UpdatePackageVersionPlugin = require('./UpdatePackageVersionPlugin')
 
 module.exports = {
     entry : {
@@ -11,6 +11,6 @@ module.exports = {
     },
 
     plugins: [
-        new UpdatePackageVersion()
+        new UpdatePackageVersionPlugin({options:true})
     ]
 };
