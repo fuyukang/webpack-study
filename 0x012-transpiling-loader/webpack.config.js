@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
     entry  : {
-        'index': ['./src/index.ts'],
+        'index': ['./src/index.js']
     },
     output : {
         path    : path.join(__dirname, 'dist'),
@@ -13,13 +13,13 @@ module.exports = {
     },
     module : {
         rules: [
-            // {
-            //     test   : /\.js$/,
-            //     exclude: /node_modules/,
-            //     use    : {
-            //         loader: "babel-loader"
-            //     }
-            // },
+            {
+                test   : /\.js$/,
+                exclude: /node_modules/,
+                use    : {
+                    loader: "babel-loader"
+                }
+            },
             {
                 test  : /\.tsx?$/,
                 loader: 'awesome-typescript-loader'

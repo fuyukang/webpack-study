@@ -9,7 +9,9 @@
     "raw-loader": "^0.5.1",
     "_raw-loader@0.5.1@raw-loader": "^0.5.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

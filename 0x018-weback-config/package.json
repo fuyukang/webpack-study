@@ -1,0 +1,12 @@
+{
+  "name": "0x011-custom-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "UpdatePackageVersion.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
